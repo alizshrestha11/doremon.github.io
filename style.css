@@ -1,0 +1,72 @@
+body
+{
+	background-color: #0b515f;
+}
+h2
+{
+	color: white; 
+}
+*
+{
+	marigin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header
+{
+	color: orange;
+	font-size: 50px;
+}
+img
+{
+	padding-right: 10px;
+}
+h1
+{
+	color: red;
+	font-size: 30px;
+}
+footer
+{
+	color: black;
+	font-size: 20px;
+	background-color: white;
+}
+summary
+{
+	font-size: 40px;
+}
+#headings
+{
+	color: white;
+}
+#animation
+{
+    width: 200px;
+    height: 10;
+    background-color: white; 
+    position: relative;
+}
+#bie
+{
+	width: 100%;
+    height: 100px;
+    
+    position: relative;
+}
+#bie img
+{
+	width: 140px;
+	height: 120px;
+	position: absolute;
+	left:0;
+	top: -10px;
+	animation-name: doremon;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+@keyframes doremon
+{
+	from{left: 0}
+	to {left: 85%}
+}
